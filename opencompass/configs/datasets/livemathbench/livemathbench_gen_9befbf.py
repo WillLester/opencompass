@@ -7,10 +7,10 @@ from opencompass.datasets.livemathbench import LiveMathBenchDataset, LiveMathBen
 
 livemathbench_dataset = dict(
     type=LiveMathBenchDataset,
-    path='',
+    path='opencompass/LiveMathBench202412',
     k=16,
     n=48,
-    dataset_splits=['CNMO', 'CCEE', 'AMC', 'WLPMC'],
+    dataset_splits=['202412_CNMO', '202412_CCEE', '202412_AMC', '202412_WLPMC'],
     dataset_languages=['cn', 'en'],
     cot=True,
     version='202412',
